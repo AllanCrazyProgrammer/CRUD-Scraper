@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-8 offset-2">
                 <h2>Posts</h2>
-                <a href="/savedArticles"><button class="btn">Saved articles</button></a>
+                <a href="/"><button class="btn">Back to home</button></a>
                 <a href="/scrape"><button class="btn">Scrape!</button></a>
                 {{#each datos}}
                 <div class="card">
@@ -12,7 +12,7 @@
                         <h3>{{excerpt}}</h3>
                         <h4>{{link}}</h4>
                         <br>
-                        <button class="btn saveArticle" data-id="{{_id}}" >Save</button>
+                        <button class="btn addNote">Notes</button>
                     </div>
                 </div>
                 {{/each}}
